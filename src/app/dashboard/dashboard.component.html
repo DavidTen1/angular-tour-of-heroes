@@ -1,1 +1,4 @@
-<p>dashboard works!</p>
+<h2>Heroes in Dashboard</h2>
+<div class="heroes">
+<a *ngFor="let hero of heroes" routerLink="/detail/{{hero.id}}">{{hero.name}}</a>
+</div>
